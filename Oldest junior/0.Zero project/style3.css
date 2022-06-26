@@ -1,0 +1,79 @@
+.th1{color: blue}
+.th2{color: red}
+.th3{
+	margin-left: 50px; 
+	color: pink;
+	border:1px solid red;
+	background-color: purple;
+	display: inline-block; 
+}
+
+.th4{color: orange}
+.th5{color: red}
+.th6{background-color: tomato }
+.th7{border: 3px dotted blue }
+.th8{background-color: yellow}
+.th9{margin-top:50px}
+
+.in1{border: 2px solid green}
+.in2{}
+.in3{border: 2px ridge blue}
+.in4{border: 2px solid green}
+.in5{color: pink}
+.in6{type="radio" name=""}
+
+.li1{list-style-type: circle}
+.li2{list-style-type: square}
+.li3{list-style-type: upper-roman;}
+
+.sele{
+	border: 1px solid red;
+	border-radius: 10px
+}
+
+.imagg{
+	height: 200px;
+	border-radius: 10px;
+}
+
+
+.slava{
+	text-align: center;
+	border: 1px solid black;
+	background-color: pink;
+	display: inline-block;
+}
+.u1{
+	color: blue;
+	border:2px solid blue;
+	background-color: red;
+	display: inline-block;
+}
+.u2{
+	color: yellow;
+	border:2px solid yellow;
+	background-color: orange;
+	display: inline-block;
+}
+.u3{
+	color: blue;
+	border:2px solid blue;
+	background-color: yellow;
+	display: inline-block;
+}
+.u4{
+	color: yellow;
+	border:2px solid yellow;
+	background-color: green;
+	display: inline-block;
+}
+.u5{color: #00ffff;
+	border:2px solid yellow;
+	background-color: blue;
+	display: inline-block;}
+.u6{
+	color: yellow;
+	border:2px solid yellow;
+	background-color: purple;
+	display: inline-block;
+}

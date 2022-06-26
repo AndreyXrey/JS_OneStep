@@ -1,0 +1,68 @@
+
+.h11 {
+	color: purple
+}
+.h22 {
+	color: blue;
+	background-color: black;
+	border: 5px solid blue;
+	display: inline-block;
+}
+.h15 {
+	color: pink
+}
+.h4{
+	color: red;
+}
+.h5{
+	margin-top: 75px;
+	margin-bottom: 75px;
+	margin-left: 300px;
+	display: inline-block;
+}
+.butt{
+	background-color: pink;
+	color: violet;
+	border: none;
+	border-radius: 228px;
+
+}
+.inp{
+	border:1px dotted blue;
+}
+.buttt{
+	border: 1px dashed blue;
+}
+.rara {
+	background-color: brown;
+	font-size: 50px;
+	display: inline-block;
+}
+.rama {
+	border: 2px solid blue;
+	display: inline-block;
+}
+.list{
+	list-style-type: upper-roman;
+}
+.listik{
+	color: pink;
+	border:5px dashed blue;
+	display: inline-block;
+}
+.selecc{
+	border: 1px dotted red;
+	border-radius: 15px;
+}
+.image{
+	height: 350px;
+	border-radius: 500px;
+	display: flex;
+	align-items: center;
+}
+.my-section{
+	background-color: yellow;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}

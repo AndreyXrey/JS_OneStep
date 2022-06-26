@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html> 
+<head> 
+		<style >
+			.zhopa{
+				color: purple;
+			}
+			.name{
+				color:blue;
+			}
+			.sum {
+				color:orange;
+			}
+			.minus {
+				border: 1px solid red;
+			}
+			.plusex{
+				background-color: yellow;
+				color: red;
+			}
+		</style>
+</head>
+
+<body>
+	<h1 class='zhopa'> Hello world </h1>
+	<h2 class='name'>Акакий</h2>
+	<h3 class='mult'></h3>
+	<h3 class='plusex'></h3>
+	<h3 class='sum'> </h3>
+
+	<h4 class='minus'>0</h4>
+
+	<h5 class='add-text'> </h5>
+
+	<script type="text/javascript"> 
+
+		let addText = document.querySelector('.add-text')
+		let fName = "Andreyka"
+		let lName = "Clever"
+		let fullName= fName + " " + lName
+		addText.innerText = fullName
+
+		let myHeader = document.querySelector(".zhopa")
+		//document.querySelector(".zhopa").innerText="биллибирдa"
+		myHeader.innerText = "Белелеееберда"
+
+		let myName = document.querySelector(".name") 
+		//document.querySelector(".name").innerText="Andreas"
+		myName.innerText = "Andrey"
+
+		let thatMult = document.querySelector(".mult")
+		//document.querySelector(".plus").innerText= 234+3
+		thatMult.innerText = 15*15
+
+		let numOne = 14
+		let numTwo = 57
+		let someSum = numTwo + numOne
+
+		let sumElement = document.querySelector(".sum")
+		sumElement.innerText = someSum
+
+		let myMinus = document.querySelector(".minus")
+		myMinus.innerText = 15-22
+
+		let Pluss = document.querySelector(".plusex")
+		Pluss.innerText =23+72
+
+	</script>
+</body>
+
+</html>
